@@ -1,0 +1,38 @@
+/* Estilo para el logo en la barra de navegación */
+#navbar .logo {
+    float: none; /* Desactiva el flotado del logo */
+    text-align: center; /* Centra el logo dentro de su contenedor */
+  }
+  
+  /* Estilo para la lista de navegación y sus elementos */
+  #navbar ul,
+  #navbar ul li {
+    float: none; /* Desactiva el flotado de la lista y los elementos de la lista */
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  #navbar ul li a {
+    padding: 5px; /* Añade espaciado interno a los enlaces */
+    border-bottom: 1px dotted #fff; /* Añade un borde inferior punteado blanco a los enlaces */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: #fff; /* Establece el color del texto del enlace a blanco */
+  }
+  
+  /* Opcional: Cambia el color del borde al pasar el ratón sobre el enlace */
+  #navbar ul li a:hover {
+    border-bottom: 1px solid #fff; /* Cambia el borde punteado a sólido al pasar el ratón */
+  }
+  /* Oculta la imagen de información */
+.info-img {
+    display: none; /* Oculta el elemento con la clase .info-img */
+  }
+  
+  /* Estilo para la sección de información en la página de inicio */
+  #home-info.info-content {
+    float: none; /* Desactiva el flotado del contenedor */
+    width: 100%; /* Establece el ancho del contenedor al 100% del contenedor padre */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 5px 3px; /* Añade espaciado interno (padding) de 5px arriba y abajo, 3px a los lados */
+    overflow: hidden; /* Oculta cualquier contenido que desborde el contenedor */
+  }

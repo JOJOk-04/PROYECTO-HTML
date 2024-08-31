@@ -1,0 +1,253 @@
+/* Reiniciar toda página tendrá estas propiedades por default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo Menú */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Clases Generales */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    border-color: #3d8e33;
+    background: #FFF;
+    color: #5BBF21;
+}
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    border-color: #3d8e33;
+    background: #FFF;
+    color: #5BBF21;
+}
+.text-primary {
+    color: #5BBF21;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #5BBF21;
+}
+/* Bienvenida */
+#welcome {
+    background: url('../img/welcome-fime.jpg') no-repeat center;
+}
+#welcome .welcome-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #215b33;
+}
+
+.bg-dark {
+    background: #215b33;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #215b33;
+}
+
+.bg-primary {
+    background: #5BBF21;
+    color: #215b33;
+}
+/* Información Principal */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-fime-1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+/* Información Secundaria */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.clr {
+    clear: both;
+}
+#main-footer{
+    text-align: :center;
+    background: #468d5c;
+    color: #fff;
+    padding: 20px;
+}
+.1-heading {
+    font-size: 40px;
+  }
+  
+  /* Padding */
+  .py-1 { 
+    padding: 10px 0; 
+  }
+  .py-2 { 
+    padding: 20px 0; 
+  }
+  .py-3 { 
+    padding: 30px 0; 
+  }
+  #about-info.info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  /* Estilo para la imagen dentro de la sección derecha de "Acerca de" */
+  #about-info.info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+  }
+  
+  /* Estilo para la sección izquierda de "Acerca de" */
+  #about-info.info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+  #testimonials {
+    height: 600px;
+    background: url('../img/photo-fime-2-sepia-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+  }
+  
+  /* Estilo para el encabezado dentro de la sección de testimonios */
+  #testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  /* Estilos para cada testimonio */
+  #testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+  /* Estilo para las imágenes dentro de los testimonios */
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%; /* Efecto redondo en la imagen */
+  }
+  /* Estilos para la sección de formulario de contacto */
+#contact-form {
+    background-color: #f9f9f9; /* Fondo claro para el formulario */
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para los grupos de formulario */
+  #contact-form .form-group {
+    margin-bottom: 20px; /* Espacio entre los grupos de formulario */
+  }
+  
+  /* Estilos para las etiquetas del formulario */
+  #contact-form label {
+    display: block; /* Las etiquetas deben estar en su propia línea */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    font-weight: bold; /* Negrita para las etiquetas */
+  }
+  /* Estilo para el estado de enfoque (focus) en campos de entrada y área de texto */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none; /* Elimina el borde predeterminado del navegador */
+  border-color: #5BBF21; /* Cambia el color del borde al enfocarse */
+}
